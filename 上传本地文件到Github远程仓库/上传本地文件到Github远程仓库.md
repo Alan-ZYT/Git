@@ -11,15 +11,16 @@
 1、假如你已经有了[Github](https://github.com/)账号，没有的话去才注册一个，很简单。
 
 2、点击头像旁边的+号，New repository 如下图所示 : 
-![](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561293220347.png)
+
+![1561293220347.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561293220347.png?raw=true)
 
 3、创建仓库（注意：在README处勾选框，这样的话在你的github仓库中会为你自动生成一个README.md）
 
-![1561293839064](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561293839064.png)
+![1561293839064.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561293839064.png?raw=true)
 
 4、最后创建仓库后的页面效果如下:
 
-![创建仓库后的页面](C:\Users\Administrator\Pictures\Github\创建仓库后的页面.png)
+![创建仓库后的页面.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/%E5%88%9B%E5%BB%BA%E4%BB%93%E5%BA%93%E5%90%8E%E7%9A%84%E9%A1%B5%E9%9D%A2.png?raw=true)
 
 ------
 
@@ -46,7 +47,7 @@ git config --global user.name "Alan-ZYT"
 git config --global user.email "17717874203@163.com"
 ```
 
-![](C:\Users\Administrator\Pictures\Github\在项目目录中右键点击Git Bash Here.png)
+![在项目目录中右键点击Git Bash Here.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/%E5%9C%A8%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E4%B8%AD%E5%8F%B3%E9%94%AE%E7%82%B9%E5%87%BBGit%20Bash%20Here.png?raw=true)
 
 Tips：用户名和邮箱作为你的唯一标识，--global 这个参数，表示这台机器上的所有Git仓库都会使用这个配置，也可以指定仓库用不同的用户名和邮箱
 
@@ -54,7 +55,7 @@ Tips：用户名和邮箱作为你的唯一标识，--global 这个参数，表�
 
 （因为我之前生成过秘钥，所以本地是有的）
 
-![1561294906843](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561294906843.png)
+![1561294906843.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561294906843.png?raw=true)
 
 2、如果没有的话，执行以下指令生成秘钥：
 
@@ -75,7 +76,7 @@ ssh-keygen.exe -t rsa -C "17717874203@163.com"
 
 1、进入github，点击settings
 
-![1561295211988](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561295211988.png)
+![1561295211988.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561295211988.png?raw=true)
 
 
 
@@ -121,7 +122,7 @@ ssh-keygen.exe -t rsa -C "17717874203@163.com"
 ```
 
 之后你会发现文件夹下多了一个隐藏文件夹.git，这个目录是Git用来跟踪管理版本库的，不要修改
-![1561295745094](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561295745094.png)
+![1561295745094.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561295745094.png?raw=true)
 
 ```bash
 2、git add . # 将所有文件添加到仓库，注意空格
@@ -132,7 +133,7 @@ ssh-keygen.exe -t rsa -C "17717874203@163.com"
 ```
 
 Tips：后面的地址请自行修改，地址怎么来的，见下图。
-![1561296002440](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561296002440.png)
+![1561296002440.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561296002440.png?raw=true)
 
 ```bash
 5、git push -u origin master # 上传本地代码
@@ -149,7 +150,7 @@ $ ssh-keygen.exe -t rsa -C "17717874203@163.com"
 参考文档: https://blog.csdn.net/Leolu007/article/details/79129446
 ```
 
-![1561297049760](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297049760.png)
+![1561297049760.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297049760.png?raw=true)
 
 
 
@@ -164,7 +165,7 @@ git pull --rebase origin master
 ```
 
 这个时候查看本地代码目录，会发现多了个README.md文件
-![1561297242393](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297242393.png)
+![1561297242393.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297242393.png?raw=true)
 
 此时再次执行以下语句，上传代码
 
@@ -172,11 +173,11 @@ git pull --rebase origin master
 git push -u origin master
 ```
 
-![1561297285934](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297285934.png)
+![1561297285934.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297285934.png?raw=true)
 
 然后去github仓库查看，成功 ! ! !   如下图：
 
-![1561297347869](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297347869.png)
+![1561297347869.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297347869.png?raw=true)
 
 ===============================================================================
 
@@ -192,9 +193,9 @@ git push -u origin master
 
 查看效果
 
-![1561297686678](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297686678.png)
+![1561297686678.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297686678.png?raw=true)
 
-![1561297713335](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561297713335.png)
+![1561297713335.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561297713335.png?raw=true)
 
 ------
 
@@ -205,21 +206,23 @@ git push -u origin master
 如果在新建repository的时候，不勾选的?不初始化README.md呢？
 
 效果如下：
-![1561298063065](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561298063065.png)
+![1561298063065.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561298063065.png?raw=true)
 
-里面是空的，什么都没有，只有提示消息，也没有README.md
+里面是空的，什么都没有，只有提示消息，也没有README.md 
 
-![1561298119283](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561298119283.png)
+哈哈~~~ 其实细心的小伙伴会发现下图中 官网已经告诉了使用Git命令上传文件的方式.
+
+![1561298119283.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561298119283.png?raw=true)
 
 上传文件，没有报错，直接成功，
 
 （因为错误就是因为远程仓库的README.md没有download到本地，现在远程仓库没有该文件，
 所以本地就不需要download，就不报错了）
-![1561298375791](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561298375791.png)
+![1561298375791.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561298375791.png?raw=true)
 
 最后的效果
 
-![1561298403128](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1561298403128.png)
+![1561298403128.png](https://github.com/Alan-ZYT/Git/blob/master/%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0Github%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93/1561298403128.png?raw=true)
 
 Tips：
 README.md是属于仓库的说明书，建议是要有的。
